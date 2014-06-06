@@ -3,3 +3,5 @@ func fib(val: Int) -> Int {
 }
 
 var fibbed = memoize(fib)
+
+// fibbed(8) -- will call 9 times instead of 82 (without memoize)
