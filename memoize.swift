@@ -1,5 +1,3 @@
-import Cocoa
-
 func memoize<T:Hashable, U>(fn : T -> U) -> (T -> U) {
     var cache = Dictionary<T, U>()
 
