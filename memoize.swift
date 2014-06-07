@@ -6,5 +6,5 @@ func memoize<T:Hashable, U>(fn : T -> U) -> (T -> U) {
         }
         return cache[val]!
     }
-    return memoized;
+    return memoized
 }
